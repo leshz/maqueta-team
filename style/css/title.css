@@ -1,0 +1,79 @@
+.title {
+  background-color: #dc143c;
+  color: #fff;
+  padding: 3em 1em 5em;
+  text-align: center;
+  font-family: 'Passion One', sans-serif;
+  position: relative;
+  max-height: 450px;
+}
+
+.title-background {
+  background-image: url('../../assets/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 0;
+  opacity: .15;
+}
+
+.title-content {
+  line-height: 8vw;
+  position: relative;
+  z-index: 10;
+  transition: all .3s ease;
+}
+
+.title-content:hover .title-content-outliers{
+  transform: perspective(100px) rotateX(-3deg) scale(1.1);
+}
+
+.title-content-team {
+  font-size: 13vw;
+  display: block;
+  transform: perspective(300px) rotatex(21deg);
+  margin-bottom: .15em;
+  text-shadow: 0 0.03em 0 rgb(31, 31, 31), 0 0.1em 0 rgb(22, 22, 22), 0 0.1em 0 black, 0 0.05em 1em black;
+  color: rgb(255, 230, 42)
+}
+
+.title-content-outliers {
+  font-size: 18vw;
+  background-color: black;
+  background-image: linear-gradient(#000, rgb(39, 0, 0));
+  padding: .08em .21em;
+  display: inline-block;
+  line-height: 1em;
+  transform: perspective(500px) rotatex(-21deg);
+  transition: all .3s ease;
+}
+
+.title-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 4vw;
+  line-height: 1em;
+  text-shadow: 0 0 0.1em black, 0 0 0.1em black, 0 0 0.1em black, 0 0 0.1em black, 0 0 0.1em black, 0 0 0.1em black, 0 0 0.1em black, 0 0 0.1em black, 0 0 0.1em black;
+}
+
+@media (min-width: 720px) {
+  .title-content {
+    line-height: inherit;
+  }
+  .title-content-team {
+    font-size: 80px;
+    height: 1em;
+  }
+  .title-content-outliers {
+    font-size: 140px;
+    height: 160px;
+  }
+  .title-subtitle {
+    font-size: 26px;
+  }
+}
