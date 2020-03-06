@@ -1,0 +1,36 @@
+Footer {
+    width: 100%;
+    height: 150px;
+    background-color: #f2f2f2;
+    border-color: #333333;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+Footer li {
+    list-style: none;
+    padding:10px;
+}
+
+.Footer__right {
+    padding-right: 50px;
+    text-align: right;
+}
+
+@media screen and (max-width:768px)
+{
+    Footer {
+        grid-template-columns: 1fr;
+        height: auto;
+        text-align: center;
+
+    }
+    Footer li a{
+        padding: 0;
+    }
+    
+    .Footer__right {
+        padding: 0;
+        text-align: center;
+    }
+}
