@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery{
+  width: 100%;
+  display: grid;
+  margin-top: 1em;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.gallery .gallery__item img{
+  width: 50%;
+  border-radius: 50%;
+  background-color: #eaeaea;
+}
+
+.gallery .gallery__item article{
+  margin-top: .5em;
+}
+
+@media screen and(max-width:480px){
+  .gallery{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
