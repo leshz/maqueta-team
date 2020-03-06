@@ -16,17 +16,17 @@
 }
 
 .social-link.facebook {
-	background-image: url('../resources/images/facebook-icon.png');
+	background-image: url('../../resources/images/facebook-icon.png');
 }
 
 .social-link.instagram {
-	background-image: url('../resources/images/instagram-icon.png');
+	background-image: url('../../resources/images/instagram-icon.png');
 }
 
 .social-link.twitter {
-	background-image: url('../resources/images/twitter-icon.png');
+	background-image: url('../../resources/images/twitter-icon.png');
 }
 
 .social-link.youtube {
-	background-image: url('../resources/images/youtube-icon.png');
+	background-image: url('../../resources/images/youtube-icon.png');
 }
