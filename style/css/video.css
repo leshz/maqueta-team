@@ -1,0 +1,8 @@
+.container__video {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+  }
+  
