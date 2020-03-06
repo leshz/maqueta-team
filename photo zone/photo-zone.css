@@ -9,7 +9,7 @@
   display: grid;
   margin-top: 1em;
   text-align: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
 }
 
@@ -21,4 +21,11 @@
 
 .gallery .gallery__item article{
   margin-top: .5em;
+}
+
+@media screen and(max-width:480px){
+  .gallery{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
