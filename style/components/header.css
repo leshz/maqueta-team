@@ -1,0 +1,39 @@
+body * {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #8a8585bb;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0;
+}
+
+.header-logo {
+  justify-content: start;
+  padding: 30px;
+}
+
+.navigator {
+  display: grid;
+  justify-content: end;
+}
+.navigator ul {
+  margin: 7px 30px 35px 50px;
+  width: 80%;
+  height: 90%;
+  list-style: none;
+  display: inline-flex;
+}
+
+.navigator ul {
+  margin-left: 0;
+}
+
+.item {
+  display: grid;
+  width: 80px;
+  padding: 20px;
+}

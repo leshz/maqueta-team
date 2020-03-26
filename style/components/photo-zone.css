@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.gallery{
+.gallery {
   width: 100%;
   display: grid;
   margin-top: 1em;
@@ -13,18 +13,18 @@
   grid-gap: 10px;
 }
 
-.gallery .gallery__item img{
+.gallery .gallery__item img {
   width: 50%;
   border-radius: 50%;
   background-color: #eaeaea;
 }
 
-.gallery .gallery__item article{
-  margin-top: .5em;
+.gallery .gallery__item article {
+  margin-top: 0.5em;
 }
 
-@media screen and(max-width:480px){
-  .gallery{
+@media screen and(max-width:480px) {
+  .gallery {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
   }

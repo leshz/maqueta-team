@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 25%;
+}
+.container__media {
+  display: grid;
+  grid-column: 1;
+
+  justify-content: center;
+  align-content: center;
+}
+.container__section {
+  grid-column: 2;
+}
+
+.container__section--text {
+  font-family: "Lato";
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+@media (max-width: 980px) {
+  .container {
+    display: inline;
+  }
+}

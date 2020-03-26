@@ -1,0 +1,16 @@
+@import "./components/article.css";
+@import "./components/checkboxSection.css";
+@import "./components/footer.css";
+@import "./components/header.css";
+@import "./components/photo-zone.css";
+@import "./components/social.css";
+@import "./components/title.css";
+@import "./components/video.css";
+@import "./components/video_text.css";
+
+body {
+  font-family: "Lato", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
