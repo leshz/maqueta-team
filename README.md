@@ -11,3 +11,4 @@ En este proyecto, se creara en equipo el siguiente wireframe:
 
 y este fue el resultado :) 
 ![](./resources/solution.png)
+
