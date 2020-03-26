@@ -16,3 +16,5 @@ Tecnologies used:
 - HTML
 - CSS
 
+Follow me ![@AryRosvall](https://twitter.com/AryRosvall)
+
